@@ -25,6 +25,6 @@ const companySchema = new mongoose.Schema(
       required: true,
     },
   },
-  { timeseries: true }
+  { timestamps: true }
 );
 export const Company = mongoose.model("Comapny", companySchema);
